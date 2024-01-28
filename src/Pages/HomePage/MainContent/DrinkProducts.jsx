@@ -1,7 +1,7 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
-import { Navigation } from 'swiper/modules';
+// import { Navigation } from 'swiper/modules';
 import SingleProductCard from '../SingleProductCard/SingleProductCard';
 import drink from "../../../../public/SidebarIcon/1.png";
 import { IoIosArrowForward } from "react-icons/io";
@@ -26,8 +26,8 @@ const DrinkProducts = ({ drinkList }) => {
             <Swiper
                 spaceBetween={50}
                 slidesPerView={5}
-                navigation={true}
-                modules={[Navigation]}
+                // navigation={true}
+                // modules={[Navigation]}
                 className="mySwiper"
                 breakpoints={{
                     0: {

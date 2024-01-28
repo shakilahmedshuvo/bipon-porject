@@ -3,12 +3,13 @@ const SingleProductCard = ({ data }) => {
     return (
         <div className="bg-[#FFFFFF] rounded-2xl pt-3 pb-3 mb-10">
             <img src={img} alt="" />
-            <div className="mx-4 mt-2">
+            <div className="mx-3 mt-2">
                 <p className="text-2xl font-medium">
                     {price}₸
                 </p>
-                <p className="mt-1">
-                    {title.slice(0, 14)}...
+                <p className="mt-1 w-[50px] text-[sm]">
+                    {title.slice(0, 22)}...
+                    {/* {title} */}
                 </p>
                 <p className="text-gray-500 my-1 font-medium">
                     {quantity}

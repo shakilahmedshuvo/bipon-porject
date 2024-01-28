@@ -1,7 +1,7 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
-import { Navigation } from 'swiper/modules';
+// import { Navigation } from 'swiper/modules';
 import shampoo from "../../../../public/SidebarIcon/8.png";
 import { IoIosArrowForward } from 'react-icons/io';
 import SingleProductCard from '../SingleProductCard/SingleProductCard';
@@ -25,8 +25,8 @@ const ChipsProduct = ({ chipsList }) => {
             <Swiper
                 spaceBetween={50}
                 slidesPerView={5}
-                navigation={true}
-                modules={[Navigation]}
+                // navigation={true}
+                // modules={[Navigation]}
                 className="mySwiper"
                 breakpoints={{
                     0: {
