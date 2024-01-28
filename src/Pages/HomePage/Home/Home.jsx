@@ -7,7 +7,7 @@ import SideBar from "../SideBar/SideBar";
 
 const Home = () => {
     return (
-        <div className="bg-[#F5F4F2] overflow-x-hidden">
+        <div className="bg-[#F5F4F2] overflow-hidden">
             <Navbar />
             <div className="container mx-auto">
                 <div className="lg:pt-20 mb-10">
@@ -18,7 +18,7 @@ const Home = () => {
                     <div className="hidden lg:block">
                         <SideBar />
                     </div>
-                    <div className="lg:col-span-3 me-5">
+                    <div className="lg:col-span-3 lg:me-5">
                         <MainContent />
                     </div>
                     <div className="mt-10 hidden lg:block">

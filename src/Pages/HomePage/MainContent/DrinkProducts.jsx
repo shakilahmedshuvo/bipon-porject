@@ -8,9 +8,9 @@ import { IoIosArrowForward } from "react-icons/io";
 
 const DrinkProducts = ({ drinkList }) => {
     return (
-        <div>
+        <>
 
-            <div className='flex items-center justify-between mt-10 mb-5'>
+            <div className='flex items-center justify-between mt-10 mb-5 lg:w-full w-fit'>
                 <div className='flex items-center'>
                     <img src={drink} alt="" />
                     <h2 className='text-2xl font-semibold ms-3'>
@@ -35,7 +35,7 @@ const DrinkProducts = ({ drinkList }) => {
                         spaceBetween: 10,
                     },
                     620: {
-                        slidesPerView: 3,
+                        slidesPerView: 2,
                         spaceBetween: 10,
                     }
                     ,
@@ -48,13 +48,14 @@ const DrinkProducts = ({ drinkList }) => {
                 {
                     drinkList?.map((data) => (
                         <SwiperSlide
+                        className='w-[100%]'
                             key={data.id}>
                             <SingleProductCard data={data} />
                         </SwiperSlide>
                     ))
                 }
             </Swiper>
-        </div>
+        </>
     );
 };
 

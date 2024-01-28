@@ -7,7 +7,7 @@ const SingleProductCard = ({ data }) => {
                 <p className="text-2xl font-medium">
                     {price}₸
                 </p>
-                <p className="mt-1 w-[50px] text-[sm]">
+                <p className="mt-1 lg:w-[50px] text-[sm]">
                     {title.slice(0, 22)}...
                     {/* {title} */}
                 </p>

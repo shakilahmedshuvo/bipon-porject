@@ -19,8 +19,8 @@ const Navbar = () => {
         <>
 
             {/* lg device start */}
-            <div className="lg:block hidden">
-                <div className="grid grid-cols-12 px-6 fixed bg-[#F5F4F2] z-10 w-full">
+            <div className="lg:block hidden bg-[#F5F4F2]">
+                <div className="grid grid-cols-12 px-6 fixed z-10 w-full">
 
                     {/* navbar logo start */}
                     <div className="col-span-3 flex items-center py-4">
@@ -74,6 +74,7 @@ const Navbar = () => {
 
                 </div>
             </div>
+
             {/* lg device end */}
 
             {/* sm device start */}
