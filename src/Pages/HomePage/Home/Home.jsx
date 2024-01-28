@@ -8,14 +8,18 @@ const Home = () => {
     return (
         <div className="bg-[#F5F4F2]">
             <Navbar />
-            <div className="grid grid-cols-5 max-w-[1508px] mx-auto mt-8">
+            <div>
+                <hr className="mb-1 border-[1px] border-gray-300 col-span-12" />
+            </div>
+
+            <div className="grid grid-cols-5 container mx-auto pt-36 px-5">
                 <div>
                     <SideBar />
                 </div>
                 <div className="col-span-3">
                     <MainContent />
                 </div>
-                <div>
+                <div className="">
                     <Cart />
                 </div>
             </div>

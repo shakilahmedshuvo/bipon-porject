@@ -4,10 +4,10 @@ import { TbLocationFilled } from "react-icons/tb";
 
 const Navbar = () => {
     return (
-        <div className="grid grid-cols-12 mx-6">
+        <div className="grid grid-cols-12 px-6 fixed bg-[#F5F4F2] z-10 w-full">
 
             {/* navbar logo start */}
-            <div className="col-span-3 flex items-center my-4">
+            <div className="col-span-3 flex items-center py-4">
                 <Link to={"/"}>
                     <img
                         className="pe-5 py-2 border-e-[1px] border-black"
@@ -57,8 +57,6 @@ const Navbar = () => {
             </div>
             {/* login btn end */}
 
-            {/* hr line */}
-            <hr className="mb-1 border-[1px] border-gray-300 col-span-12" />
         </div>
     );
 };
