@@ -1,14 +1,25 @@
-
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import { Navigation } from 'swiper/modules';
 import SingleProductCard from '../SingleProductCard/SingleProductCard';
+import { IoIosArrowForward } from 'react-icons/io';
+import cookie from "../../../../public/SidebarIcon/2.png";
 
 const CookiesProduct = ({ cookiesList }) => {
     return (
         <div>
-            <h2>Cookis</h2>
+            <div className='flex items-center justify-between mt-2 mb-5'>
+                <div className='flex items-center'>
+                    <img src={cookie} alt="" />
+                    <h2 className='text-2xl font-semibold ms-3'>
+                        Выпечка
+                    </h2>
+                </div>
+                <div className='flex items-center w-fit px-4 py-2 hover:bg-[#E7E6E4] rounded-xl duration-300'>
+                    All <IoIosArrowForward className='ms-2' />
+                </div>
+            </div>
 
             {/* slider section start */}
             <Swiper
