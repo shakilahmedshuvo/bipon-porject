@@ -20,7 +20,7 @@ const Navbar = () => {
 
             {/* lg device start */}
             <div className="lg:block hidden bg-[#F5F4F2]">
-                <div className="grid grid-cols-12 px-6 fixed z-10 w-full">
+                <div className="grid grid-cols-12 px-6 fixed z-10 w-full bg-[#F5F4F2]">
 
                     {/* navbar logo start */}
                     <div className="col-span-3 flex items-center py-4">
@@ -78,7 +78,7 @@ const Navbar = () => {
             {/* lg device end */}
 
             {/* sm device start */}
-            <div className="block lg:hidden">
+            <div className="block lg:hidden bg-[#F5F4F2]">
                 <div className="grid grid-cols-12 fixed top-0 z-10 w-full bg-[#F5F4F2] py-1">
 
                     <div className="col-span-2">
