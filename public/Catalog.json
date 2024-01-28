@@ -1,0 +1,117 @@
+[
+    {
+        "id": 1,
+        "name": "Холодные напитки",
+        "img": "./SidebarIcon/1.png"
+    },
+    {
+        "id": 2,
+        "name": "Выпечка",
+        "img": "./SidebarIcon/2.png"
+    },
+    {
+        "id": 3,
+        "name": "Хот-доги",
+        "img": "./SidebarIcon/3.png"
+    },
+    {
+        "id": 4,
+        "name": "Красота и гигиена",
+        "img": "./SidebarIcon/4.png"
+    },
+    {
+        "id": 5,
+        "name": "Пицца",
+        "img": "./SidebarIcon/5.png"
+    },
+    {
+        "id": 6,
+        "name": "Горячие напитки",
+        "img": "./SidebarIcon/6.png"
+    },
+    {
+        "id": 7,
+        "name": "Бакалея",
+        "img": "./SidebarIcon/7.png"
+    },
+    {
+        "id": 8,
+        "name": "Семечки, чипсы",
+        "img": "./SidebarIcon/8.png"
+    },
+    {
+        "id": 9,
+        "name": "Товары для быта",
+        "img": "./SidebarIcon/9.png"
+    },
+    {
+        "id": 10,
+        "name": "Сэндвичи",
+        "img": "./SidebarIcon/10.png"
+    },
+    {
+        "id": 11,
+        "name": "Десерты",
+        "img": "./SidebarIcon/11.png"
+    },
+    {
+        "id": 12,
+        "name": "Для детей",
+        "img": "./SidebarIcon/12.png"
+    },
+    {
+        "id": 13,
+        "name": "Жевательные резинки",
+        "img": "./SidebarIcon/13.png"
+    },
+    {
+        "id": 14,
+        "name": "Кондитерские изделия",
+        "img": "./SidebarIcon/14.png"
+    },
+    {
+        "id": 15,
+        "name": "Молочные продукты",
+        "img": "./SidebarIcon/15.png"
+    },
+    {
+        "id": 16,
+        "name": "Колбасы, сыры",
+        "img": "./SidebarIcon/16.png"
+    },
+    {
+        "id": 17,
+        "name": "Орехи и сухофрукты",
+        "img": "./SidebarIcon/17.png"
+    },
+    {
+        "id": 18,
+        "name": "Для животных",
+        "img": "./SidebarIcon/18.png"
+    },
+    {
+        "id": 19,
+        "name": "Медицинские товары",
+        "img": "./SidebarIcon/19.png"
+    },
+    {
+        "id": 20,
+        "name": "Автопринадлежности",
+        "img": "./SidebarIcon/20.png"
+    },
+    {
+        "id": 21,
+        "name": "Игрушки",
+        "img": "./SidebarIcon/21.png"
+    },
+    {
+        "id": 22,
+        "name": "Зарядные устройства",
+        "img": "./SidebarIcon/22.png"
+    },
+    {
+        "id": 23,
+        "name": "Дом, дача, отдых",
+        "img": "./SidebarIcon/23.png"
+    }
+]

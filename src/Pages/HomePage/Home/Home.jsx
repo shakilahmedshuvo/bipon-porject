@@ -9,7 +9,7 @@ const Home = () => {
         <div className="bg-[#F5F4F2]">
             <Navbar />
             <div className="grid grid-cols-5 max-w-[1508px] mx-auto mt-8">
-                <div className="h-[100vh]">
+                <div>
                     <SideBar />
                 </div>
                 <div className="col-span-3">
