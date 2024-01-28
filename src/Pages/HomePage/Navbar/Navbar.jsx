@@ -58,7 +58,7 @@ const Navbar = () => {
             {/* login btn end */}
 
             {/* hr line */}
-            <hr className="my-1 border-[1px] border-gray-300 col-span-12" />
+            <hr className="mb-1 border-[1px] border-gray-300 col-span-12" />
         </div>
     );
 };
