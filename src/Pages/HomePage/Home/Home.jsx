@@ -1,6 +1,7 @@
 import Cart from "../Cart/Cart";
 import Footer from "../Footer/Footer";
 import MainContent from "../MainContent/MainContent";
+import MassageBtn from "../MassageBtn/MassageBtn";
 import Navbar from "../Navbar/Navbar";
 import SideBar from "../SideBar/SideBar";
 
@@ -23,6 +24,7 @@ const Home = () => {
                     <Cart />
                 </div>
             </div>
+            <MassageBtn />
             <Footer />
         </div>
     );
