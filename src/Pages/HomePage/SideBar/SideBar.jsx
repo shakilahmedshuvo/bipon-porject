@@ -15,7 +15,7 @@ const SideBar = () => {
     }, []);
 
     return (
-        <div>
+        <>
             {/* top heading start */}
             <div>
                 <h2 className="font-semibold text-xl">
@@ -36,7 +36,7 @@ const SideBar = () => {
                 </h2>
 
                 {/* map for catalog section start */}
-                <section className="font-medium h-full overflow-auto mt-1">
+                <section className="font-medium h-full  mt-1">
                     {
                         catalog?.slice(0, 16).map((item) => (
                             <div key={item?.id} className="flex items-center my-2 cursor-pointer hover:bg-[#E7E6E4] rounded-2xl duration-300 px-3">
@@ -73,7 +73,7 @@ const SideBar = () => {
 
             </div>
             {/* Catalog section end */}
-        </div>
+        </>
     );
 };
 

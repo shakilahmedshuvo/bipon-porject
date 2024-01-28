@@ -2,9 +2,9 @@ import cartSvg from "../../../assets/Cart.svg";
 
 const Cart = () => {
     return (
-        <div className="bg-[#FFFFFF] h-[90vh] rounded-3xl ms-2 w-fit sticky top-10 pt-10">
+        <div className="bg-[#FFFFFF] h-[100vh] rounded-3xl lg:ms-2 w-fit sticky top-10 lg:pt-10">
 
-            <h2 className="text-2xl pt-4 ps-4 font-semibold w-[300px]">
+            <h2 className="text-2xl pt-4 ps-4 font-semibold lg:w-[300px]">
                 Cart
             </h2>
 
