@@ -38,8 +38,26 @@ const SideBar = () => {
                 {/* map for catalog section start */}
                 <section className="font-medium h-full overflow-auto mt-1">
                     {
-                        catalog?.map((item) => (
-                            <div key={item?.id} className="flex items-center my-2 cursor-pointer hover:bg-[#E7E6E4] rounded-2xl duration-300">
+                        catalog?.slice(0, 16).map((item) => (
+                            <div key={item?.id} className="flex items-center my-2 cursor-pointer hover:bg-[#E7E6E4] rounded-2xl duration-300 px-3">
+                                <img
+                                    className="h-full"
+                                    src={item?.img}
+                                    alt="" />
+                                <p className="ms-4 text-base">
+                                    {item.name}
+                                </p>
+                            </div>
+                        ))
+                    }
+
+                    <h2 className="hover:bg-[#E7E6E4] rounded-2xl duration-300 py-3 px-3">
+                        Крупы, макароны
+                    </h2>
+
+                    {
+                        catalog?.slice(16, 23).map((item) => (
+                            <div key={item?.id} className="flex items-center my-2 cursor-pointer hover:bg-[#E7E6E4] rounded-2xl duration-300 px-3">
                                 <img
                                     className="h-full"
                                     src={item?.img}
